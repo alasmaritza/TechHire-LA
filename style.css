@@ -1,7 +1,7 @@
 .homepage.index #homepage-section1 {
     align-items: center;
     background-size: cover;
-    background-image: url("los-angeles_1.png");
+    background-image: url("DTLAdenim.jpg");
     min-height: 45vw;
 }
 
@@ -28,7 +28,7 @@
 }
 
 #homepage-section1 .container {
-    background-color: rgba(0, 0, 0, 0.726);
+    letter-spacing:1px;
     padding: 10px;
     color:white;
 }
