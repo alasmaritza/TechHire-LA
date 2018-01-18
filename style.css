@@ -9,9 +9,13 @@
     display: flex;
 }
 
+.strong {
+    font-weight:600;
+}
+
 .white-text {
     /* color:white; */
-    font-family: "Archivo Black";
+    font-family: "Montserrat";
 }
 
 .overlay {
@@ -28,9 +32,15 @@
 }
 
 #homepage-section1 .container {
-    letter-spacing:1px;
+    /* letter-spacing:1px; */
     padding: 10px;
     color:white;
+}
+
+h1.strong {
+    margin-top:40px;
+    margin-bottom:40px;
+    font-size:3.5em;
 }
 
 #stats-number-container img {
