@@ -10,7 +10,7 @@
 }
 
 .strong {
-    font-weight:600;
+    font-weight: 600;
 }
 
 .white-text {
@@ -18,16 +18,17 @@
     font-family: "Montserrat";
 }
 
-h4.white-text a, .panel {
-    color:white;
+h4.white-text a,
+.panel {
+    color: white;
 }
 
 .btn-outline-light.more {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .media img {
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 .media.bottom img {
@@ -48,24 +49,24 @@ h4.white-text a, .panel {
 }
 
 .app-btn {
-    margin:auto;
-    margin-bottom:20px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 #homepage-section1 .container {
     /* letter-spacing:1px; */
     padding: 10px;
-    color:white;
+    color: white;
 }
 
 h1.strong {
-    margin-top:40px;
-    margin-bottom:40px;
-    font-size:3.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.5em;
 }
 
 #stats-number-container img {
-    margin:5px;
+    margin: 5px;
 }
 
 .navbar {
@@ -161,31 +162,31 @@ h5 {
     font-family: "Montserrat"
 }
 
-.btn.btn-outline-light{
+.btn.btn-outline-light {
     color: rgb(255, 255, 255);
 }
 
-.btn.btn-outline-light:hover{
+.btn.btn-outline-light:hover {
     color: rgb(36, 36, 36);
 }
 
 ul.media.bottom {
-    padding-top:40px;
+    padding-top: 40px;
 }
 
 .obama-quote {
-    font-family:"Montserrat";
-    color:rgb(91, 91, 91);
-    padding:30px;
+    font-family: "Montserrat";
+    color: rgb(91, 91, 91);
+    padding: 30px;
 }
 
 .obama-quote span {
     font-family: "Montserrat";
-    font-weight:300;
+    font-weight: 300;
 }
 
 .line-break {
-    margin:auto;
+    margin: auto;
 }
 
 .homepage.index #homepage-section3 #connecting-opportunities-bg {
@@ -213,20 +214,22 @@ ul.media.bottom {
 }
 
 .brand-white-text a {
-    color:white;
+    color: white;
 }
 
 .panel-footer .more {
-    margin-left:20px;
+    margin-left: 20px;
 }
+
 .panel-footer {
-    padding-bottom:10px;
-    padding:5px;
+    padding-bottom: 10px;
+    padding: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.section2 h4, .bg-footer {
+.section2 h4,
+.bg-footer {
     font-family: 'Montserrat';
 }
 
@@ -235,8 +238,36 @@ ul.media.bottom {
 }
 
 .scholarships {
-    background-color:#009de0;
-    color:white;
-    font-family:'Montserrat';
-    text-align:center;
+    background-color: #009de0;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.homepage.index #homepage-section6 #nisa-bg {
+    background-image: url('NisaK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section6 #ruby-bg {
+    background-image: url('RubyRios.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section6 #gio-bg {
+    background-image: url('GiovannyR.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+#homepage-section1 div.container {
+    margin-left:200px;
 }
