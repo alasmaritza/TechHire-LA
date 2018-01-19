@@ -248,24 +248,21 @@ ul.media.bottom {
     background-image: url('NisaK.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 200px;
+    min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #ruby-bg {
     background-image: url('RubyRios.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 200px;
+    min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #gio-bg {
     background-image: url('GiovannyR.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    min-height: 200px;
+    min-height: 300px;
 }
 
 #homepage-section1 div.container {
