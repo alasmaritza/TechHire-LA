@@ -274,4 +274,10 @@ ul.media.bottom {
 
 .scholarships h2 {
     margin-bottom:0;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+em span {
+    color:#009de0;
 }
