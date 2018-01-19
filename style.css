@@ -18,6 +18,22 @@
     font-family: "Montserrat";
 }
 
+h4.white-text a {
+    color:white;
+}
+
+.btn-outline-light.more {
+    margin-top:10px;
+}
+
+.media img {
+    margin-top:5px;
+}
+
+.media.bottom img {
+    margin-top: 20px;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -29,6 +45,11 @@
     opacity: 0.5;
     transition: .5s ease;
     background-color: #008CBA;
+}
+
+.app-btn {
+    margin:auto;
+    margin-bottom:20px;
 }
 
 #homepage-section1 .container {
@@ -80,7 +101,7 @@ h1.strong {
 
 #homepage-section2 {
     background-color: rgba(185, 185, 185, 0.2);
-    padding: 100px;
+    padding: 30px;
 }
 
 #homepage-section3 {
@@ -146,4 +167,23 @@ h5 {
 
 ul.media.bottom {
     padding-top:40px;
+}
+
+.obama-quote {
+    font-family:"Times New Roman";
+    color:rgb(91, 91, 91);
+    padding:30px;
+}
+
+.obama-quote span {
+    font-family: serif;
+    font-weight:300;
+}
+
+.line-break {
+    margin:auto;
+}
+
+#connecting-opportunities-bg {
+    background-image: url('new-opp.jpg')
 }
