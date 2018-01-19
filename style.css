@@ -217,11 +217,11 @@ ul.media.bottom {
     color: white;
 }
 
-.panel-footer .more {
+.panel-footer .more, .students div.panel-body {
     margin-left: 20px;
 }
 
-.panel-footer {
+.panel-footer, .students div.panel-body {
     padding-bottom: 10px;
     padding: 5px;
     border-bottom-left-radius: 5px;
@@ -277,4 +277,8 @@ ul.media.bottom {
 
 em span {
     color:#009de0;
+}
+
+.btn-outline-light.students {
+    margin-top:10px;
 }
