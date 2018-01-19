@@ -233,3 +233,10 @@ ul.media.bottom {
 #homepage-section3 h1 {
     font-family: 'Montserrat';
 }
+
+.scholarships {
+    background-color:#009de0;
+    color:white;
+    font-family:'Montserrat';
+    text-align:center;
+}
