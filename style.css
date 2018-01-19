@@ -18,7 +18,7 @@
     font-family: "Montserrat";
 }
 
-h4.white-text a {
+h4.white-text a, .panel {
     color:white;
 }
 
@@ -106,7 +106,7 @@ h1.strong {
 
 #homepage-section3 {
     /* background-color: rgba(0,155,222,0.2); */
-    padding: 100px;
+    padding: 50px;
 }
 
 #homepage-section4 .bg-footer,
@@ -184,6 +184,48 @@ ul.media.bottom {
     margin:auto;
 }
 
-#connecting-opportunities-bg {
-    background-image: url('new-opp.jpg')
+.homepage.index #homepage-section3 #connecting-opportunities-bg {
+    background-image: url('new-opp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section3 #tech-education-bg {
+    background-image: url('techedu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section3 #inclusive-tech-bg {
+    background-image: url('inclusivetech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.brand-white-text a {
+    color:white;
+}
+
+.panel-footer .more {
+    margin-left:20px;
+}
+.panel-footer {
+    padding-bottom:10px;
+    padding:5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.section2 h4, .bg-footer {
+    font-family: 'Montserrat';
+}
+
+#homepage-section3 h1 {
+    font-family: 'Montserrat';
 }
