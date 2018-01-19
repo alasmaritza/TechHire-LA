@@ -165,18 +165,22 @@ h5 {
     color: rgb(255, 255, 255);
 }
 
+.btn.btn-outline-light:hover{
+    color: rgb(36, 36, 36);
+}
+
 ul.media.bottom {
     padding-top:40px;
 }
 
 .obama-quote {
-    font-family:"Times New Roman";
+    font-family:"Montserrat";
     color:rgb(91, 91, 91);
     padding:30px;
 }
 
 .obama-quote span {
-    font-family: serif;
+    font-family: "Montserrat";
     font-weight:300;
 }
 
