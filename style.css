@@ -107,7 +107,7 @@ h1.strong {
 
 #homepage-section3 {
     /* background-color: rgba(0,155,222,0.2); */
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 #homepage-section4 .bg-footer,
@@ -217,13 +217,13 @@ ul.media.bottom {
     color: white;
 }
 
-.panel-footer .more, .students div.panel-body {
+.students div.panel-body {
     margin-left: 20px;
 }
 
 .panel-footer, .students div.panel-body {
     padding-bottom: 10px;
-    padding: 5px;
+    padding:10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -245,21 +245,21 @@ ul.media.bottom {
 }
 
 .homepage.index #homepage-section6 #nisa-bg {
-    background-image: url('NisaK.jpg');
+    background-image: url('NisaK.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #ruby-bg {
-    background-image: url('RubyRios.jpg');
+    background-image: url('EddieC.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #gio-bg {
-    background-image: url('GiovannyR.jpg');
+    background-image: url('RubyR.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
@@ -281,4 +281,20 @@ em span {
 
 .btn-outline-light.students {
     margin-top:10px;
+}
+
+.footer-text {
+    font-size:10px;
+}
+
+.footer-print h5 {
+    color:white;
+    line-height:40px;
+}
+.footer-print {
+    margin-top:20px;
+}
+
+#homepage-section6 .students {
+    margin-bottom:50px;
 }
