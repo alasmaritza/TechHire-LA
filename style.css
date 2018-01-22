@@ -100,7 +100,7 @@ h1.strong {
     border: solid 2px #009de0;
 }
 
-#homepage-section2 {
+#homepage-section2, #homepage-section7 {
     background-color: rgba(185, 185, 185, 0.2);
     padding: 30px;
 }
@@ -297,4 +297,29 @@ em span {
 
 #homepage-section6 .students {
     margin-bottom:50px;
+}
+
+.form-control {
+    border-radius:0;
+}
+
+form {
+    font-family:'Montserrat';
+    font-weight:bold;
+}
+
+.form-control:focus {
+    border-color:#009de0;
+    outline:none !important;
+    box-shadow: 0 0 10px #009de0;
+}
+
+.btn-lg {
+    border-radius:0;
+    background-color:#009de0;
+    color:white;
+}
+
+a.obamaQuote {
+    text-decoration-style: none;
 }
