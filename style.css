@@ -295,10 +295,6 @@ em span {
     margin-top:20px;
 }
 
-#homepage-section6 .students {
-    margin-bottom:50px;
-}
-
 .form-control {
     border-radius:0;
 }
@@ -320,6 +316,11 @@ form {
     color:white;
 }
 
-a.obamaQuote {
-    text-decoration-style: none;
+a.obamaQuote, .scholarships a {
+    text-decoration: none;
+    color:white;
+}
+
+.panel.bg-brand.border-none {
+    margin-bottom: 50px;
 }
