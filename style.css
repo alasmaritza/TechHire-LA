@@ -266,7 +266,7 @@ ul.media.bottom {
 }
 
 #homepage-section1 div.container {
-    margin-left:200px;
+    /* margin-left:200px; */
 }
 
 .scholarships h2 {
@@ -324,3 +324,82 @@ a.obamaQuote, .scholarships a {
 .panel.bg-brand.border-none {
     margin-bottom: 50px;
 }
+
+.white-text.box {
+    background-color:rgba(0, 0, 0, 0.6);
+    padding:5px;
+}
+/* 
+ul.media {
+    float:right;
+} */
+
+@media (min-width: 992px)
+ {
+    ul.media {
+        float:right;
+    }
+    
+    .grant {
+        align:justify;
+    }
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    ul.media.top {
+        display:none;
+    }
+
+    .obama-quote {
+        padding:0;
+    }
+
+    #homepage-section4 h4 {
+        margin-bottom:20px;
+    }
+
+    .students .panel-body br {
+        display:none;
+    }
+
+    img.ypilogo {
+        width:50%;
+    }
+    ul.media.bottom {
+        padding-top:0;
+        width:80%;
+        margin:auto;
+    }
+ }
+
+ @media (max-width: 575px) {
+     ul.media.top {
+         display:none;
+         width:100%;
+     }
+
+     #heading-container {
+         width:100%;
+     }
+
+     .obama-quote {
+         padding:0;
+     }
+     
+    #homepage-section4 h4 {
+        margin-bottom:30px;
+    }
+    .students .panel-body br {
+        display:none;
+    }
+    img.ypilogo {
+        width:50%;
+        margin:auto;
+    }
+    ul.media.bottom {
+        padding-top:0;
+        width:80%;
+        margin:auto;
+    }
+ }
