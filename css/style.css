@@ -366,6 +366,7 @@ ul.media {
         padding-top:0;
         width:80%;
         margin:auto;
+        padding-left:0px;
     }
  }
 
@@ -397,5 +398,13 @@ ul.media {
         padding-top:0;
         width:80%;
         margin:auto;
+    }
+
+    #homepage-section3 h1 {
+        font-size:2.4em;
+    }
+
+    .obama-quote .strong {
+        font-size:.8em;
     }
  }
