@@ -1,7 +1,7 @@
 .homepage.index #homepage-section1 {
     align-items: center;
     background-size: cover;
-    background-image: url("/img/DTLAdenim.jpg");
+    background-image: url("/img/dtladenim.jpg");
     min-height: 45vw;
 }
 
@@ -51,6 +51,7 @@ h4.white-text a,
 .app-btn {
     margin: auto;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 
 #homepage-section1 .container {
@@ -245,21 +246,21 @@ ul.media.bottom {
 }
 
 .homepage.index #homepage-section6 #nisa-bg {
-    background-image: url('/img/NisaK.png');
+    background-image: url('/img/nisaK.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #ruby-bg {
-    background-image: url('/img/EddieC.png');
+    background-image: url('/img/eddieC.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #gio-bg {
-    background-image: url('/img/RubyR.png');
+    background-image: url('/img/rubyR.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
@@ -325,10 +326,8 @@ a.obamaQuote, .scholarships a {
     background-color:rgba(0, 0, 0, 0.6);
     padding:5px;
 }
-/* 
-ul.media {
-    float:right;
-} */
+
+/* media queries */
 
 @media (min-width: 992px)
  {
