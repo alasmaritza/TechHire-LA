@@ -307,10 +307,15 @@ form {
     box-shadow: 0 0 10px #009bde;
 }
 
-.btn-lg {
+.btn-lg, input#mc-embedded-subscribe.button.subscribe {
     border-radius:0;
     background-color:#009bde;
     color:white;
+}
+
+input#mc-embedded-subscribe.button.subscribe:hover {
+    color:#009bde;
+    background-color:white;
 }
 
 a.obamaQuote, .scholarships a {
@@ -336,7 +341,7 @@ a.obamaQuote, .scholarships a {
     }
     
     .grant {
-        align:justify;
+        text-align:justify;
     }
  
 }
